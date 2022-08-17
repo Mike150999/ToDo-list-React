@@ -1,0 +1,74 @@
+.item__text-active{
+	text-decoration: line-through;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(41, 39, 39);
+	margin-left: 10px;
+}
+
+.item-active{
+	background: linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(252,80,0,0.9836309523809523) 0%, rgba(255,113,25,1) 17%, rgba(252,176,69,1) 100%, rgba(252,176,69,1) 100%, rgba(252,176,69,1) 100%);
+	min-height: 55px;
+	text-align: left;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px 0px 10px;
+	width: 420px;
+	margin: 0 auto ;
+	margin-top: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
+	opacity: 0.7;
+}
+
+
+
+.item{
+	background: linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(252,80,0,0.9836309523809523) 0%, rgba(255,113,25,1) 17%, rgba(252,176,69,1) 100%, rgba(252,176,69,1) 100%, rgba(252,176,69,1) 100%);
+	min-height: 55px;
+	text-align: left;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px 0px 10px;
+	width: 420px;
+	margin: 0 auto ;
+	margin-top: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
+
+
+&__complete{
+	display: flex;
+}
+
+&__text{
+	font-size: 18px;
+	font-weight: 600;
+	margin-left: 10px;
+}
+	&__button{
+		
+		height: 25px;
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+	}
+	&__img{
+		width: 15px;
+		height: 15px;
+	}
+	&__btn-edit{
+		margin-left: 10px;
+	}
+	&__btn{
+		display: flex;
+	}
+
+	&__btn-done{
+		padding-top: 6px;
+	}
+	
+}
+
