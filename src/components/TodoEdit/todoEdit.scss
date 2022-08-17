@@ -1,0 +1,38 @@
+.update{
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	&__input{
+		padding: 10px;
+    border: 3px solid #010101;
+    width: 230px;
+    font-size: 17px;
+    outline: none;
+	 height: 25px;
+	}
+
+	&__button{
+		font-size: 12px;
+		padding: 20.5px 11px 17.5px 11px;
+		border: none;
+		background: #111110;
+		box-sizing: border-box;
+		color: white;
+		outline: none;
+		cursor: pointer;
+		
+	}
+	&__cancel{
+		font-size: 12px;
+		padding: 20.5px 11px 17.5px 11px;
+		border: none;
+		background: rgb(165, 4, 4);
+		box-sizing: border-box;
+		color: white;
+		outline: none;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+}
